@@ -34,3 +34,5 @@ your program should output:
 It is possible to solve this with Time: O(n) and Space: O(1)
 
 So before diving into a hashtable solution, take a refresher on Bitwise Operations
+
+https://www.hackerrank.com/contests/programming-interview-questions/challenges/find-uncoupled-integer
