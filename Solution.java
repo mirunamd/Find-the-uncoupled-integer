@@ -9,9 +9,8 @@ public class Solution {
     public static void main(String[] args) throws Exception{
         BufferedReader bi = new BufferedReader(new InputStreamReader(System.in));
 		int r = 0; // result
-        String[] values = bi.readLine().split(",\\s"); 
         
-		for(String s: values){
+		for(String s: bi.readLine().split(",\\s")){
 			int n = Integer.parseInt(s);
 			r = r ^ n;
 		}
